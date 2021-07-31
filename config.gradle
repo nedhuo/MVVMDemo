@@ -26,7 +26,13 @@ ext {
             //'animated-vector-drawable': "com.android.support:animated-vector-drawable:${versions["support-version"]}",
             //'junit'                   : "junit:junit:${versions["junit-version"]}",
     ]
-    androidx = []
+    androidx = [
+            'appcompat'       : 'androidx.appcompat:appcompat:1.2.0',
+            'constraintlayout': 'androidx.constraintlayout:constraintlayout:2.0.4',
+            'recyclerview': 'androidx.recyclerview:recyclerview:1.1.0',
+            'junit': 'androidx.test.ext:junit:1.1.2',
+            'espresso-core': 'androidx.test.espresso:espresso-core:3.3.0',
+    ]
     //依赖第三方配置
     dependencies = [
             //MVVMHabit
