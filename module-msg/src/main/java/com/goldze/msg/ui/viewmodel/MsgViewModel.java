@@ -1,7 +1,8 @@
 package com.goldze.msg.ui.viewmodel;
 
 import android.app.Application;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.Nullable;
 
 import me.goldze.mvvmhabit.base.BaseViewModel;
 
@@ -10,7 +11,7 @@ import me.goldze.mvvmhabit.base.BaseViewModel;
  */
 
 public class MsgViewModel extends BaseViewModel {
-    public MsgViewModel(@NonNull Application application) {
+    public MsgViewModel(@Nullable Application application) {
         super(application);
     }
 }

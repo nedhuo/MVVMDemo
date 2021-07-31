@@ -1,9 +1,11 @@
 package com.goldze.work.ui.viewmodel;
 
 import android.app.Application;
-import android.databinding.ObservableArrayList;
-import android.databinding.ObservableList;
-import android.support.annotation.NonNull;
+
+
+import androidx.annotation.NonNull;
+import androidx.databinding.ObservableArrayList;
+import androidx.databinding.ObservableField;
 
 import com.goldze.work.R;
 import com.goldze.work.BR;
@@ -28,7 +30,7 @@ public class WorkViewModel extends BaseViewModel {
         }
     }
     //给RecyclerView添加ObservableList
-    public ObservableList<WorkItemViewModel> observableList = new ObservableArrayList<>();
+    public ObservableArrayList<WorkItemViewModel> observableList = new ObservableArrayList<>();
     //给RecyclerView添加ItemBinding
     public ItemBinding<WorkItemViewModel> itemBinding = ItemBinding.of(BR.viewModel, R.layout.grid_work);
 }

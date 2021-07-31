@@ -2,9 +2,10 @@ package com.goldze.base.config;
 
 import android.app.Application;
 
+import androidx.annotation.Nullable;
+
 import com.goldze.base.base.IModuleInit;
 
-import io.reactivex.annotations.Nullable;
 
 /**
  * Created by goldze on 2018/6/21 0021.

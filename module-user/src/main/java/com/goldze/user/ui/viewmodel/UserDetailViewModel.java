@@ -3,9 +3,10 @@ package com.goldze.user.ui.viewmodel;
 import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
-import android.databinding.ObservableField;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
+
+import androidx.annotation.NonNull;
+import androidx.databinding.ObservableField;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 
@@ -19,7 +20,7 @@ import me.goldze.mvvmhabit.bus.RxBus;
  */
 
 public class UserDetailViewModel extends BaseViewModel {
-    public ObservableField<String> nameObservable = new ObservableField();
+    public ObservableField<String> nameObservable = new ObservableField<String>();
 
     public UserDetailViewModel(@NonNull Application application) {
         super(application);

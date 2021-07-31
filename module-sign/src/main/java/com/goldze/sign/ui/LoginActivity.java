@@ -1,16 +1,19 @@
 package com.goldze.sign.ui;
 
-import android.arch.lifecycle.Observer;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
+
+import androidx.annotation.Nullable;
+import androidx.lifecycle.Observer;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.goldze.base.router.RouterActivityPath;
 import com.goldze.sign.BR;
 import com.goldze.sign.R;
 import com.goldze.sign.databinding.ActivityLoginBinding;
+
+import java.util.Observable;
 
 import me.goldze.mvvmhabit.base.BaseActivity;
 

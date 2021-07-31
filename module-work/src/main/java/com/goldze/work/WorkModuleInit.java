@@ -1,5 +1,6 @@
 package com.goldze.work;
 
+
 import android.app.Application;
 
 import com.goldze.base.base.IModuleInit;
