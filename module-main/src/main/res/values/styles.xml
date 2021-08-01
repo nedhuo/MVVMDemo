@@ -1,6 +1,11 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!--StartActivity Style 冷启动效果-->
-    <style name="AppTheme.Start">
+    <style name="AppTheme.Start" tools:ignore="ResourceName">
         <item name="android:windowBackground">@drawable/activity_start</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/transparent</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/transparent</item>
     </style>
 </resources>

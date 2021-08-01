@@ -33,6 +33,6 @@ public class MeFragment extends BaseFragment<FragmentMeBinding, MeViewModel> {
 
     @Override
     public void initData() {
-        super.initData();
+        
     }
 }

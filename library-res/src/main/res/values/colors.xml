@@ -11,4 +11,6 @@
     <color name="appBackColor">#F4F3F3</color>
     <color name="viewLineColor">#E0E0E0</color>
 
+    <color name="transparent">#00000000</color>
+
 </resources>

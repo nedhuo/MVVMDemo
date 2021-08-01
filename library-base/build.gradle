@@ -41,10 +41,8 @@ dependencies {
     //公用资源在base中依赖
     api project(':library-res')
     api project(':mvvmhabit')
-
+    api rootProject.ext.dependencies["utilcodex"]
     //阿里路由框架
-    api rootProject.ext.dependencies["arouter-api"]
-    //utilcode
     api rootProject.ext.dependencies["arouter-api"]
     annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
 

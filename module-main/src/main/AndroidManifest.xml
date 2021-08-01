@@ -4,5 +4,6 @@
     <application>
         <!--在自己组件中注册Activity-->
         <activity android:name="com.goldze.main.ui.MainActivity"></activity>
+        <activity android:name=".ui.SplashVideoActivity" android:theme="@style/AppTheme.Start"></activity>
     </application>
 </manifest>

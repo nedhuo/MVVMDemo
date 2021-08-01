@@ -18,7 +18,7 @@ import me.goldze.mvvmhabit.R;
  * 盛装Fragment的一个容器(代理)Activity
  * 普通界面只需要编写Fragment,使用此Activity盛装,这样就不需要每个界面都在AndroidManifest中注册一遍
  */
-public class ContainerActivity extends RxAppCompatActivity {
+public class  ContainerActivity extends RxAppCompatActivity {
     private static final String FRAGMENT_TAG = "content_fragment_tag";
     public static final String FRAGMENT = "fragment";
     public static final String BUNDLE = "bundle";
@@ -29,6 +29,7 @@ public class ContainerActivity extends RxAppCompatActivity {
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_container);
+
         FragmentManager fm = getSupportFragmentManager();
         Fragment fragment = null;
         if (savedInstanceState != null) {

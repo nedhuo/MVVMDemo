@@ -13,4 +13,6 @@
         <item>#3303A9F4</item>
         <item>#1903A9F4</item>
     </array>
+
+    <color name="transparent">#00000000</color>
 </resources>
