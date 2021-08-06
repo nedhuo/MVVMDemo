@@ -2,9 +2,9 @@ ext {
     //android开发版本配置 28.0.3是gradle3.6.4最小支持版本
     android = [
             compileSdkVersion: 28,
-            buildToolsVersion: "28.0.3",
+            buildToolsVersion: "28.0.2",
             applicationId    : "com.goldze.component",
-            minSdkVersion    : 15,
+            minSdkVersion    : 19,
             targetSdkVersion : 28,
             versionCode      : 1,
             versionName      : "1.0",
