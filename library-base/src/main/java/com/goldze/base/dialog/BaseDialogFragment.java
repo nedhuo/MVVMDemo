@@ -31,15 +31,9 @@ import me.goldze.mvvmhabit.base.BaseViewModel;
 import me.goldze.mvvmhabit.base.IBaseView;
 
 /**
- * ProjectName: BubbleVoice
- * Package: com.lnkj.lib_base
- * Description: java类作用描述
- * Author: 姚闻达
  * CreateDate: 2020/12/16 14:51
  * UpdateUser: 更新者
- * UpdateDate: 2020/12/16 14:51
  * UpdateRemark: 更新说明
- * Version: 1.0
  */
 public abstract class BaseDialogFragment<VM extends BaseViewModel, VDB extends ViewDataBinding> extends DialogFragment implements IBaseView {
     protected VM mViewModel;
